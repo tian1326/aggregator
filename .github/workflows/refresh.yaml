@@ -10,10 +10,10 @@ env:
   TZ: Asia/Shanghai
 
   # github access token
-  GIST_PAT: ${{ secrets.GIST_PAT }}
+  GIST_PAT: ${{ secrets.PAT }}
 
   # github username and gist id, separated by '/'
-  GIST_LINK: ${{ secrets.GIST_LINK }}
+  GIST_LINK: ${{ secrets.GIST_ID }}
 
 jobs:
   process:
